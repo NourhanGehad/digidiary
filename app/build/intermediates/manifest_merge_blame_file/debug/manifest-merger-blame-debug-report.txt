@@ -1,0 +1,96 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.hayllieapps.digidiary"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->E:\Projects\GithubProjects\Android\digidiary\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->E:\Projects\GithubProjects\Android\digidiary\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->E:\Projects\GithubProjects\Android\digidiary\app\src\main\AndroidManifest.xml:4:5-79
+11-->E:\Projects\GithubProjects\Android\digidiary\app\src\main\AndroidManifest.xml:4:22-76
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->E:\Projects\GithubProjects\Android\digidiary\app\src\main\AndroidManifest.xml:5:5-81
+12-->E:\Projects\GithubProjects\Android\digidiary\app\src\main\AndroidManifest.xml:5:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->E:\Projects\GithubProjects\Android\digidiary\app\src\main\AndroidManifest.xml:6:5-80
+13-->E:\Projects\GithubProjects\Android\digidiary\app\src\main\AndroidManifest.xml:6:22-77
+14    <uses-permission android:name="android.permission.READ_GSERVICES" />
+14-->E:\Projects\GithubProjects\Android\digidiary\app\src\main\AndroidManifest.xml:7:5-73
+14-->E:\Projects\GithubProjects\Android\digidiary\app\src\main\AndroidManifest.xml:7:22-70
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->E:\Projects\GithubProjects\Android\digidiary\app\src\main\AndroidManifest.xml:10:5-67
+15-->E:\Projects\GithubProjects\Android\digidiary\app\src\main\AndroidManifest.xml:10:22-64
+16
+17    <application
+17-->E:\Projects\GithubProjects\Android\digidiary\app\src\main\AndroidManifest.xml:13:5-28:19
+18        android:name="com.hayllieapps.digidiary.MyApplication"
+18-->E:\Projects\GithubProjects\Android\digidiary\app\src\main\AndroidManifest.xml:14:9-63
+19        android:allowBackup="true"
+19-->E:\Projects\GithubProjects\Android\digidiary\app\src\main\AndroidManifest.xml:15:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.1.0] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\08d2e652a1b692d878949cdad496ed14\core-1.1.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:icon="@mipmap/ic_launcher"
+23-->E:\Projects\GithubProjects\Android\digidiary\app\src\main\AndroidManifest.xml:16:9-43
+24        android:label="@string/app_name"
+24-->E:\Projects\GithubProjects\Android\digidiary\app\src\main\AndroidManifest.xml:17:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->E:\Projects\GithubProjects\Android\digidiary\app\src\main\AndroidManifest.xml:18:9-54
+26        android:supportsRtl="true"
+26-->E:\Projects\GithubProjects\Android\digidiary\app\src\main\AndroidManifest.xml:19:9-35
+27        android:testOnly="true"
+28        android:theme="@style/AppTheme" >
+28-->E:\Projects\GithubProjects\Android\digidiary\app\src\main\AndroidManifest.xml:20:9-40
+29        <activity android:name="com.hayllieapps.digidiary.AppActivity" >
+29-->E:\Projects\GithubProjects\Android\digidiary\app\src\main\AndroidManifest.xml:21:9-26:20
+29-->E:\Projects\GithubProjects\Android\digidiary\app\src\main\AndroidManifest.xml:21:19-71
+30            <intent-filter>
+30-->E:\Projects\GithubProjects\Android\digidiary\app\src\main\AndroidManifest.xml:22:13-25:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->E:\Projects\GithubProjects\Android\digidiary\app\src\main\AndroidManifest.xml:23:17-69
+31-->E:\Projects\GithubProjects\Android\digidiary\app\src\main\AndroidManifest.xml:23:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->E:\Projects\GithubProjects\Android\digidiary\app\src\main\AndroidManifest.xml:24:17-77
+33-->E:\Projects\GithubProjects\Android\digidiary\app\src\main\AndroidManifest.xml:24:27-74
+34            </intent-filter>
+35        </activity>
+36
+37        <!-- The activity will be merged into the manifest of the hosting app. -->
+38        <activity
+38-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\52e8675fbea05eca06d621585d70cac9\jetified-core-1.6.4\AndroidManifest.xml:8:5-271
+39            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+39-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\52e8675fbea05eca06d621585d70cac9\jetified-core-1.6.4\AndroidManifest.xml:8:15-102
+40            android:enabled="false"
+40-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\52e8675fbea05eca06d621585d70cac9\jetified-core-1.6.4\AndroidManifest.xml:8:103-126
+41            android:exported="false"
+41-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\52e8675fbea05eca06d621585d70cac9\jetified-core-1.6.4\AndroidManifest.xml:8:127-151
+42            android:launchMode="singleInstance"
+42-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\52e8675fbea05eca06d621585d70cac9\jetified-core-1.6.4\AndroidManifest.xml:8:204-239
+43            android:process=":playcore_missing_splits_activity"
+43-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\52e8675fbea05eca06d621585d70cac9\jetified-core-1.6.4\AndroidManifest.xml:8:152-203
+44            android:stateNotNeeded="true" />
+44-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\52e8675fbea05eca06d621585d70cac9\jetified-core-1.6.4\AndroidManifest.xml:8:240-269
+45        <activity
+45-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\52e8675fbea05eca06d621585d70cac9\jetified-core-1.6.4\AndroidManifest.xml:9:5-278
+46            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+46-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\52e8675fbea05eca06d621585d70cac9\jetified-core-1.6.4\AndroidManifest.xml:9:15-95
+47            android:enabled="false"
+47-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\52e8675fbea05eca06d621585d70cac9\jetified-core-1.6.4\AndroidManifest.xml:9:96-119
+48            android:exported="false"
+48-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\52e8675fbea05eca06d621585d70cac9\jetified-core-1.6.4\AndroidManifest.xml:9:120-144
+49            android:process=":playcore_dialog_wrapper_activity"
+49-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\52e8675fbea05eca06d621585d70cac9\jetified-core-1.6.4\AndroidManifest.xml:9:175-226
+50            android:stateNotNeeded="true"
+50-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\52e8675fbea05eca06d621585d70cac9\jetified-core-1.6.4\AndroidManifest.xml:9:145-174
+51            android:theme="@style/Theme.PlayCore.Transparent" />
+51-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\52e8675fbea05eca06d621585d70cac9\jetified-core-1.6.4\AndroidManifest.xml:9:227-276
+52    </application>
+53
+54</manifest>

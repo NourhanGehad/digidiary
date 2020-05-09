@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="languages_array">
+        <item>Ingiriis</item>
+        <item>Carabi</item>
+        <item>Jarmal</item>
+        <item>Faransiis</item>
+        <item>Isbaanish</item>
+        <item>Somali</item>
+        <item>Urdu</item>
+    </string-array>
+    <string name="about">About Digi-Diary</string>
+    <string name="add_new_diary">Kudar Xusuus-qorka Cusub</string>
+    <string name="add_new_diary_dots">Kudar Xusuus-qor cusub ...</string>
+    <string name="alert">Digniin !!</string>
+    <string name="app_name">NewDigiDiary</string>
+    <string name="bin">Bin</string>
+    <string name="calendar_item">kalandarka</string>
+    <string name="compose_diary">qoraa</string>
+    <string name="confirm_permanent_delete">Ma hubtaa inaad rabto inaad tirtirto xusuusqorrada la soo xulay? Haddii aad doorato haa, weligaaba waad furaysaa.</string>
+    <string name="confirm_restore">Ma hubtaa inaad soo celiso waxyaabihii la soo xulay?</string>
+    <string name="confirm_soft_delete">Ma hubtaa inaad rabto inaad tirtirto buug-gacmeedkan? Waxaa loo rari doonaa weelka qashinka marka aad xaqiijiso</string>
+    <string name="delete">tirtir</string>
+    <string name="digi_diary">Digi-Diary</string>
+    <string name="dummy_date">Jimce, Agoosto 301th, 2020</string>
+    <string name="edit">Tafatir</string>
+    <string name="edit_diary">Tafatir Xusuus-qorka</string>
+    <string name="favourites_item">kuwa ugu cadcad</string>
+    <string name="hello_blank_fragment">Qayb madhan oo faashad ah</string>
+    <string name="hint_awesome">cabsi leh</string>
+    <string name="hint_write_your_diary_here">Qor buuggaaga halkan</string>
+    <string name="home_item">guriga</string>
+    <string name="languages">Luuqadaha</string>
+    <string name="no">Maya</string>
+    <string name="restore">soo celin</string>
+    <string name="save">Badbaadi</string>
+    <string name="settings_item">dejinta</string>
+    <string name="tell_others_about_digi_diary">Tell others about Digi-Diary</string>
+    <string name="today_is">Maanta waa</string>
+    <string name="tv_diary_desc">dummy text damey maah maah maah maah maah dhay qoraal dameer qosol sheeko qosol</string>
+    <string name="yes">Haa</string>
+</resources>

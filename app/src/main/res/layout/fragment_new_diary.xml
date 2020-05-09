@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".destinations.NewDiaryFragment"
+    android:padding="25dp">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_new_diary"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/header"/>
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="@string/dummy_date"
+        android:textColor="@color/colorText"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header"/>
+
+    <ImageView
+        android:id="@+id/iv_calendar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintTop_toBottomOf="@+id/header"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/ic_calendar"/>
+
+    <ImageView
+        android:id="@+id/iv_diary_image"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_marginTop="28dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/esse"
+        app:layout_constraintEnd_toEndOf="@id/iv_calendar"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/tv_date"
+        app:layout_constraintTop_toBottomOf="@id/tv_date" />
+
+    <View
+       android:id="@+id/bottom_image_bar"
+       android:layout_width="0dp"
+       android:layout_height="40dp"
+       app:layout_constraintBottom_toBottomOf="@id/iv_diary_image"
+       app:layout_constraintStart_toStartOf="@id/iv_diary_image"
+       app:layout_constraintEnd_toEndOf="@id/iv_diary_image"
+       android:background="@color/lightGrey"
+       android:alpha="0.7"/>
+
+    <ImageView
+        android:id="@+id/iv_change_picture"
+        android:layout_width="50dp"
+        android:layout_height="0dp"
+        android:padding="5dp"
+        android:src="@drawable/ic_photo"
+        app:layout_constraintBottom_toBottomOf="@id/bottom_image_bar"
+        app:layout_constraintEnd_toEndOf="@id/bottom_image_bar"
+        app:layout_constraintTop_toTopOf="@id/bottom_image_bar"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/today_is"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/today_is"
+        app:layout_constraintTop_toBottomOf="@id/iv_diary_image"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <EditText
+        android:id="@+id/et_diary_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBaseline_toBaselineOf="@id/today_is"
+        app:layout_constraintStart_toEndOf="@id/today_is"
+        android:layout_marginStart="20dp"
+        android:hint="@string/hint_awesome"
+        android:textColorHint="@color/lightGrey"/>
+
+    <EditText
+        android:id="@+id/et_diary_desc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintTop_toBottomOf="@id/today_is"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:hint="@string/hint_write_your_diary_here"
+        android:textColorHint="@color/lightGrey"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".destinations.CalendarFragment">
+
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_plus"
+        android:tint="@color/colorAccent"
+        android:padding="4dp"
+        android:layout_marginStart="15dp"
+        app:layout_constraintStart_toStartOf="@id/calendarView"
+        app:layout_constraintTop_toBottomOf="@id/calendarView"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_new_diary_dots"
+        android:layout_marginBottom="6dp"
+        android:layout_marginStart="16dp"
+        android:textSize="16dp"
+        app:layout_constraintStart_toEndOf="@id/iv_add"
+        app:layout_constraintBottom_toBottomOf="@id/iv_add"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_miniDiary"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="14dp"
+        android:paddingBottom="50dp"
+        android:layout_marginEnd="15dp"
+        tools:listitem="@layout/card_mini_diary"
+        app:layout_constraintStart_toStartOf="@id/iv_add"
+        app:layout_constraintEnd_toEndOf="@id/calendarView"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

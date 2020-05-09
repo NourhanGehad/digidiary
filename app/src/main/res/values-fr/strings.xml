@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NewDigiDiary</string>
+    <string name="home_item">Accueil</string>
+
+    <string name="favourites_item">favoris</string>
+
+    <string name="calendar_item">calendrier</string>
+
+    <string name="settings_item">réglages</string>
+
+    <string name="compose_diary">composer</string>
+
+    <string name="hello_blank_fragment">Bonjour fragment vierge</string>
+
+    <string name="digi_diary">Digi-Diary</string>
+
+    <string name="save">sauvegarder</string>
+
+    <string name="edit_diary">Modifier le journal</string>
+
+    <string name="add_new_diary">Ajouter un nouveau journal</string>
+
+    <string name="dummy_date">Vendredi 301 août 2020</string>
+
+    <string name="today_is">Aujourd\'hui c\'est</string>
+
+    <string name="hint_write_your_diary_here">Écrivez votre journal ici</string>
+
+    <string name="hint_awesome">impressionnant</string>
+
+    <string name="add_new_diary_dots">Ajouter un nouveau journal ...</string>
+
+    <string name="edit">Éditer</string>
+
+    <string name="tv_diary_desc">texte factice texte factice texte factice texte factice texte factice texte factice texte factice texte factice</string>
+
+    <string name="bin">Poubelle</string>
+
+    <string name="restore">restaurer</string>
+
+    <string name="delete">supprimer</string>
+
+    <string name="yes">Oui</string>
+
+    <string name="no">Non</string>
+
+    <string name="confirm_soft_delete">Voulez-vous vraiment supprimer ce journal? Il sera déplacé dans le bac lors de votre confirmation</string>
+
+    <string name="confirm_restore">Voulez-vous vraiment restaurer les éléments sélectionnés?</string>
+
+    <string name="confirm_permanent_delete">Voulez-vous vraiment supprimer les journaux sélectionnés? Si vous choisissez oui, vous les perdrez pour toujours.</string>
+
+    <string name="alert">Alerte!!</string>
+    <string name="languages">Langages</string>
+    <string name="tell_others_about_digi_diary">Tell others about Digi-Diary</string>
+    <string name="about">About Digi-Diary</string>
+    <string-array name="languages_array">
+        <item>anglais</item>
+        <item>arabe</item>
+        <item>allemand</item>
+        <item>français</item>
+        <item>espagnol</item>
+        <item>Somalien</item>
+        <item>ourdou</item>
+    </string-array>
+
+</resources>

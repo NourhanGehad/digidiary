@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_nav_graph"
+    app:startDestination="@id/splashFragment">
+    <action
+        android:id="@+id/action_to_add_new_diary"
+        app:destination="@id/newDiaryFragment" />
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.hayllieapps.digidiary.destinations.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_splash_to_home"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.hayllieapps.digidiary.destinations.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_home_to_details"
+            app:destination="@id/diaryDetailsFragment">
+            <argument
+            android:name="diary_to_display"
+            android:defaultValue="@null"
+            app:argType="com.hayllieapps.digidiary.models.Diary"
+            app:nullable="true"/>
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/favouritesFragment"
+        android:name="com.hayllieapps.digidiary.destinations.FavouritesFragment"
+        android:label="fragment_favourites"
+        tools:layout="@layout/fragment_favourites">
+        <action
+            android:id="@+id/action_favourites_to_details"
+            app:destination="@id/diaryDetailsFragment">
+            <argument
+                android:name="diary_to_display"
+                android:defaultValue="@null"
+                app:argType="com.hayllieapps.digidiary.models.Diary"
+                app:nullable="true"/>
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/newDiaryFragment"
+        android:name="com.hayllieapps.digidiary.destinations.NewDiaryFragment"
+        android:label="fragment_new_diary"
+        tools:layout="@layout/fragment_new_diary">
+        <argument
+            android:name="selected_date"
+            android:defaultValue="@null"
+            app:argType="string"
+            app:nullable="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/calendarFragment"
+        android:name="com.hayllieapps.digidiary.destinations.CalendarFragment"
+        android:label="fragment_calendar"
+        tools:layout="@layout/fragment_calendar">
+        <action
+            android:id="@+id/action_calendar_to_add_new_diary"
+            app:destination="@id/newDiaryFragment">
+            <argument
+                android:name="selected_date"
+                android:defaultValue="@null"
+                app:argType="string"
+                app:nullable="true"/>
+        </action>
+        <action
+            android:id="@+id/action_calendar_to_details"
+            app:destination="@id/diaryDetailsFragment">
+            <argument
+                android:name="diary_to_display"
+                android:defaultValue="@null"
+                app:argType="com.hayllieapps.digidiary.models.Diary"
+                app:nullable="true"/>
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.hayllieapps.digidiary.destinations.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings">
+        <action
+            android:id="@+id/action_settings_to_bin"
+            app:destination="@id/binFragment">
+        </action>
+        <action
+            android:id="@+id/action_settings_to_languages"
+            app:destination="@id/languagesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/binFragment"
+        android:name="com.hayllieapps.digidiary.destinations.BinFragment"
+        android:label="fragment_bin"
+        tools:layout="@layout/fragment_bin">
+
+    </fragment>
+    <fragment
+        android:id="@+id/diaryDetailsFragment"
+        android:name="com.hayllieapps.digidiary.destinations.DiaryDetailsFragment"
+        android:label="fragment_diary_details"
+        tools:layout="@layout/fragment_diary_details">
+        <argument
+            android:name="diary_to_display"
+            app:argType="com.hayllieapps.digidiary.models.Diary"
+            app:nullable="true"
+            android:defaultValue="@null" />
+
+        <action
+            android:id="@+id/action_details_to_edit"
+            app:destination="@id/diaryEditFragment"
+            app:popUpTo="@id/diaryDetailsFragment"
+            app:popUpToInclusive="true">
+            <argument
+                android:name="diary_to_edit"
+                android:defaultValue="@null"
+                app:argType="com.hayllieapps.digidiary.models.Diary"
+                app:nullable="true"/>
+        </action>
+
+    </fragment>
+    <fragment
+        android:id="@+id/diaryEditFragment"
+        android:name="com.hayllieapps.digidiary.destinations.DiaryEditFragment"
+        android:label="fragment_diary_edit"
+        tools:layout="@layout/fragment_edit_diary">
+        <argument
+            android:name="diary_to_edit"
+            android:defaultValue="@null"
+            app:argType="com.hayllieapps.digidiary.models.Diary"
+            app:nullable="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/languagesFragment"
+        android:name="com.hayllieapps.digidiary.destinations.LanguagesFragment"
+        android:label="fragment_languages"
+        tools:layout="@layout/fragment_languages" >
+
+    </fragment>
+
+
+</navigation>

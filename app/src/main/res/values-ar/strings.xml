@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NewDigiDiary</string>
+    <string name="home_item">الصفحة الرئيسية</string>
+
+    <string name="favourites_item">المفضلة</string>
+
+    <string name="calendar_item">التقويم</string>
+
+    <string name="settings_item">الإعدادات</string>
+
+    <string name="compose_diary">مؤلف موسيقى</string>
+
+    <string name="hello_blank_fragment">مرحبا شظية فارغة</string>
+
+    <string name="digi_diary">Digi-Diary</string>
+
+    <string name="save">حفظ</string>
+
+    <string name="edit_diary">تحرير يوميات</string>
+
+    <string name="add_new_diary">أضف يوميات جديدة</string>
+
+    <string name="dummy_date">الجمعة ، أغسطس 301th ، 2020</string>
+
+    <string name="today_is">اليوم هو</string>
+
+    <string name="hint_write_your_diary_here">اكتب مذكراتك هنا</string>
+
+    <string name="hint_awesome">ممتاز</string>
+
+    <string name="add_new_diary_dots">إضافة يوميات جديدة ...</string>
+
+    <string name="edit">تعديل</string>
+
+    <string name="tv_diary_desc">النص وهمية النص وهمية النص وهمية النص وهمية النص وهمية النص وهمية النص وهمية</string>
+
+    <string name="bin">سلة مهملات</string>
+
+    <string name="restore">استعادة</string>
+
+    <string name="delete">حذف</string>
+
+    <string name="yes">نعم</string>
+
+    <string name="no">لا</string>
+
+    <string name="confirm_soft_delete">هل أنت متأكد أنك تريد حذف هذه اليوميات؟ سيتم نقله إلى الصندوق بعد تأكيد الحجز</string>
+
+    <string name="confirm_restore">هل أنت متأكد من استعادة العناصر المحددة؟</string>
+
+    <string name="confirm_permanent_delete">هل أنت متأكد من أنك تريد حذف اليوميات المحددة؟ إذا اخترت نعم ، فستفقدها إلى الأبد.</string>
+
+    <string name="alert">إنذار!!</string>
+    <string name="languages">اللغات</string>
+    <string name="tell_others_about_digi_diary">Tell others about Digi-Diary</string>
+    <string name="about">عن تطبيق </string>
+
+    <string-array name="languages_array">
+        <item>الإنجليزية</item>
+        <item>العربية</item>
+        <item>الألمانية</item>
+        <item>الفرنسية</item>
+        <item>الإسبانية</item>
+        <item>الصومالية</item>
+        <item>أردو</item>
+    </string-array>
+</resources>

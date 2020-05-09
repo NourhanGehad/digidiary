@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NewDigiDiary</string>
+    <string name="home_item">Zuhause</string>
+
+    <string name="favourites_item">Favoriten</string>
+
+    <string name="calendar_item">Kalender</string>
+
+    <string name="settings_item">Einstellungen</string>
+
+    <string name="compose_diary">komponieren</string>
+
+    <string name="hello_blank_fragment">Hallo leeres Fragment</string>
+
+    <string name="digi_diary">Digi-Diary</string>
+
+    <string name="save">speichern</string>
+
+    <string name="edit_diary">Tagebuch bearbeiten</string>
+
+    <string name="add_new_diary">Neues Tagebuch hinzufügen</string>
+
+    <string name="dummy_date">Freitag, 30. August 2020</string>
+
+    <string name="today_is">Heute ist</string>
+
+    <string name="hint_write_your_diary_here">Schreiben Sie hier Ihr Tagebuch</string>
+
+    <string name="hint_awesome">genial</string>
+
+    <string name="add_new_diary_dots">Neues Tagebuch hinzufügen ...</string>
+
+    <string name="edit">Bearbeiten</string>
+
+    <string name="tv_diary_desc">Dummy-Text Dummy-Text Dummy-Text Dummy-Text Dummy-Text Dummy-Text Dummy-Text Dummy-Text</string>
+
+    <string name="bin">Behälter</string>
+
+    <string name="restore">wiederherstellen</string>
+
+    <string name="delete">löschen</string>
+
+    <string name="yes">Ja</string>
+
+    <string name="no">Nein</string>
+
+    <string name="confirm_soft_delete">Möchten Sie dieses Tagebuch wirklich löschen? Es wird nach Ihrer Bestätigung in den Papierkorb verschoben</string>
+
+    <string name="confirm_restore">Sind Sie sicher, dass Sie die ausgewählten Elemente wiederherstellen?</string>
+
+    <string name="confirm_permanent_delete">Möchten Sie die ausgewählten Tagebücher wirklich löschen? Wenn Sie Ja wählen, werden Sie sie für immer verlieren.</string>
+
+    <string name="alert">Warnen!!</string>
+    <string name="languages">Die Sprachen</string>
+    <string name="tell_others_about_digi_diary">Tell others about Digi-Diary</string>
+    <string name="about">کے بارے میں Digi-Diary</string>
+
+    <string-array name="languages_array">
+        <item>Englisch</item>
+        <item>Arabisch</item>
+        <item>Deutsch</item>
+        <item>Französisch</item>
+        <item>Spanisch</item>
+        <item>Somali</item>
+        <item>Urdu</item>
+    </string-array>
+</resources>

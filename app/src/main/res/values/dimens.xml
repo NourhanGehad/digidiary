@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small_margin">8dp</dimen>
+    <dimen name="fab_dimen">56dp</dimen>
+    <dimen name="normal_text_size">18sp</dimen>
+    <dimen name="medium_margin">25dp</dimen>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NewDigiDiary</string>
+    <string name="home_item">گھر</string>
+
+    <string name="favourites_item">پسندیدہ</string>
+
+    <string name="calendar_item">کیلنڈر</string>
+
+    <string name="settings_item">ترتیبات</string>
+
+    <string name="compose_diary">تحریر کریں</string>
+
+    <string name="hello_blank_fragment">ہیلو خالی ٹکڑا</string>
+
+    <string name="digi_diary">Digi-Diary</string>
+
+    <string name="save">محفوظ کریں</string>
+
+    <string name="edit_diary">ڈائری میں ترمیم کریں</string>
+
+    <string name="add_new_diary">نئی ڈائری شامل کریں</string>
+
+    <string name="dummy_date">جمعہ ، 301 اگست ، 2020</string>
+
+    <string name="today_is">آج ہے</string>
+
+    <string name="hint_write_your_diary_here">اپنی ڈائری یہاں لکھیں</string>
+
+    <string name="hint_awesome">خوفناک</string>
+
+    <string name="add_new_diary_dots">نئی ڈائری شامل کریں ...</string>
+
+    <string name="edit">ترمیم</string>
+
+    <string name="tv_diary_desc">ڈمی متن ڈمی ٹیکسٹ ڈمی ٹیکسٹ ڈمی ٹیکسٹ ڈمی ٹیکسٹ ڈمی ٹیکسٹ ڈمی ٹیکسٹ ڈمی ٹیکسٹ</string>
+
+    <string name="bin">بن</string>
+
+    <string name="restore">بحال</string>
+
+    <string name="delete">حذف کریں</string>
+
+    <string name="yes">جی ہاں</string>
+
+    <string name="no">نہیں</string>
+
+    <string name="confirm_soft_delete">کیا آپ واقعی یہ ڈائری حذف کرنا چاہتے ہیں؟ آپ کی تصدیق پر اسے بن میں منتقل کردیا جائے گا</string>
+
+    <string name="confirm_restore">کیا آپ واقعی منتخب شدہ اشیاء کو بحال کرنے کے لئے ہیں؟</string>
+
+    <string name="confirm_permanent_delete">کیا آپ واقعی منتخب ڈائریوں کو حذف کرنا چاہتے ہیں؟ اگر آپ ہاں کا انتخاب کرتے ہیں تو آپ ان کو ہمیشہ کے لئے ڈھیر کردیں گے۔</string>
+
+    <string name="alert">انتباہ !!</string>
+    <string name="languages">زبانیں</string>
+    <string name="tell_others_about_digi_diary">Tell others about Digi-Diary</string>
+    <string name="about">About Digi-Diary</string>
+
+    <string-array name="languages_array">
+        <item>انگریزی</item>
+        <item>عربی</item>
+        <item>جرمن</item>
+        <item>فرانسیسی</item>
+        <item>ہسپانوی</item>
+        <item>صومالی</item>
+        <item>اردو</item>
+    </string-array>
+</resources>
